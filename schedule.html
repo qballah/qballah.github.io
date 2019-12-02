@@ -1,1 +1,51 @@
+<!doctype html>
+<title>Indiana Pacers Info</title>
+<style>
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+#main {
+  display: flex;
+  flex: 1;
+}
+#main > article {
+  flex: 1;
+}
+#main > nav, 
+#main > aside {
+  flex: 0 0 20vw;
+  background: #D9D9D9;
+}
+#main > nav {
+  order: -1;
+}
+header, footer {
+  background: #002D62;
+  height: 15vh;
+}
+header, footer, article, nav, aside {
+  padding: 1em;
+}
+</style>
+<body>
+  <header><p style="text-align: center;"><span style="font-size: 50px; color: rgb(255, 255, 255);">Indiana Pacers Info</span></p></header>
+  <div id="main">
+    <article><p style="text-align: justify;"><span style="font-size: 36px;">Indiana Pacers Info provides you with all the latest news, upcoming schedule, and the team's roster.</span></p></article>
+    <nav>
+     <ul>
+  <li style="line-height: 2;"><a href="https://qballah.github.io/roster.html">Schedule</a></li>
+  <li style="line-height: 2;">Roster</li>
+  <li style="line-height: 2;">News</li>
+</ul>
+    </nav>
+    <aside><iframe src="https://giphy.com/embed/YqQhXFFxJG2dFauHWa" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></aside>
+  </div>
+  <footer><marquee behavior="scroll" direction="left" style="font-size: 30px;>Your scrolling text goes here</marquee></footer>
+</body>
 
